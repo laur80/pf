@@ -3,7 +3,7 @@ import './Home.css';
 
 function About() {
     return (
-        <div className='bg-info p-5 mt-3 Home' id='about'>
+        <div className='bg-info Home' id='about'>
             About
         </div>
     )

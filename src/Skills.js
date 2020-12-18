@@ -3,7 +3,7 @@ import './Home.css';
 
 function Skills() {
     return (
-        <div className="bg-primary p-5 mt-3 Home" id='skills' >
+        <div className="bg-primary Home" id='skills' >
         Skills
         </div>
     )
