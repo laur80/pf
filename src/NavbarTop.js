@@ -1,11 +1,11 @@
 import React from 'react';
 import { HashLink } from "react-router-hash-link";
-import './DisplayL.css';
+import './NavbarTop.css';
 // import { Link } from 'react-scroll';
 
 function NavbarTop() {
     return (
-    <nav class="navbar navbar-dark bg-dark d-lg-none fixed-top">
+    <nav class=" NavbarTop navbar navbar-dark bg-dark d-md-none fixed-top">
         <div class="container-fluid flex-row-reverse">
             <div class="dropdown me-4">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
