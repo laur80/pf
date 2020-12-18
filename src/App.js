@@ -12,12 +12,8 @@ import './App.css'
 function App() {
   return (
     <>
-      
-          
-            
                 <NavbarTop className=''/>
                 <Sidebar className=''/>
-       
               <div className='Container  bg-secondary  '>
                 <Home/>
                 <About/>
@@ -25,8 +21,7 @@ function App() {
                 <Projects/>
                 <Contact/>
                 </div>
-          
-     
+  
     </>
   );
 }

@@ -5,13 +5,13 @@ import './NavbarTop.css';
 
 function NavbarTop() {
     return (
-    <nav class=" NavbarTop navbar navbar-dark bg-dark d-md-none fixed-top">
+    <nav class=" NavbarTop navbar navbar-dark  d-md-none fixed-top">
         <div class="container-fluid flex-row-reverse">
             <div class="dropdown me-4">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-dark bg-dark dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                 Menu
                 </button>
-                <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenu2">
+                <div class="dropdown-menu " aria-labelledby="dropdownMenu2">
                     <HashLink className='mb-2 underline' smooth to='#home'>
                     <button class="dropdown-item text-white" type="button">Home</button>
                     </HashLink>
