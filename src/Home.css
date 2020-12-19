@@ -1,5 +1,5 @@
 .Home{
-
+    position: relative;
     height: 100vh;
     background: linear-gradient(
     100deg,
@@ -7,3 +7,16 @@
     #b0eae8 120%
   );
 }
+
+
+
+@media only screen and (max-width: 780px) {
+  #st {
+    
+    position: sticky;
+    top: 4rem;
+  }
+  }
+    
+  
+

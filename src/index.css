@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-nav: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%); 
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,16 +17,6 @@ body {
   background-color: gold;
 }
 
-body ::-webkit-scrollbar {
-  width: 0.25rem;
-}
-body ::-webkit-scrollbar-track {
-background: rgb(175, 27, 27);
-}
-
-body ::-webkit-scrollbar-thumb {
-  background: indigo;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

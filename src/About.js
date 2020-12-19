@@ -4,7 +4,9 @@ import './Home.css';
 function About() {
     return (
         <div className='bg-info Home' id='about'>
-            About
+           <h1 id="st">
+            ABOUT
+        </h1>
         </div>
     )
 }

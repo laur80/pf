@@ -4,7 +4,10 @@ import './Home.css';
 function Contact() {
     return (
         <div className="bg-info  Home" id='contact'>
-        Contact
+        
+        <h1 id="st">
+            CONTACT
+        </h1>
         </div>
     )
 }

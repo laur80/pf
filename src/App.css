@@ -13,19 +13,22 @@
 .Container {
   
   min-height: 100vh;
+  position: relative;
 }
+
+
 
 @media only screen and (min-width: 768px) {
   .Container {
-
+    
     margin-left: 13rem;
   }
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Container {
       margin-top: 4rem;
   }
-  
-}
+  }
+
