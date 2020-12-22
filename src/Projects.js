@@ -1,11 +1,11 @@
 import React from 'react'
-import './Home.css';
+import './Project.css';
 
 function Projects() {
     return (
-        <div className="bg-success Home " id='projects'>
+        <div className="bg-success Project " id='projects'>
             <h1 id="st">
-           PROJECTS
+        PROJECTS
         </h1>
         </div>
     )

@@ -7,7 +7,12 @@
     
 }
 
+.name {
+    font-family: var(--ff-txt-bar);
+}
+
 .underline {
+    font-family: var(--ff-txt-bar);
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
@@ -17,4 +22,9 @@
     font-size: 1.4rem;
     margin: 10px;
     position: relative;
+}
+
+.Photo {
+    width: 75%;
+    border-radius: 50%;
 }

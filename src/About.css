@@ -1,0 +1,20 @@
+.About {
+    
+    height: 100vh;
+    background-image:url('desk.jpg');
+    background-position-x: 20%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* line-height: 100vh; */
+
+}
+
+.txtA {
+  font-family: var(--ff-txt-hand-rw1);
+  font-size: clamp(3vh,4rem, 4vw);
+  line-height: 1.5em;
+  color:  #ffffff;
+  text-align: center;
+
+}

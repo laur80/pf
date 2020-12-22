@@ -1,9 +1,9 @@
 import React from 'react'
-import './Home.css';
+import './Skills.css';
 
 function Skills() {
     return (
-        <div className="bg-primary Home" id='skills' >
+        <div className="bg-primary Skills" id='skills' >
         <h1 id="st">
            SKILLS
         </h1>

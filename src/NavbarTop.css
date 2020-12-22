@@ -1,8 +1,12 @@
 .NavbarTop {
+    position: relative;
     height: 4rem;
     background: var(--bg-nav); 
 }
 
 .dropdown-menu {
     background: var(--bg-nav); 
+}
+.underline {
+    font-family: var(--ff-txt-bar);
 }

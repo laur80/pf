@@ -7,13 +7,13 @@
   text-align: center;
   font-size: 1.4rem;
   margin: 10px;
-  position: relative;
+  /* position: relative; */
 }
 
 .Container {
   
   min-height: 100vh;
-  position: relative;
+  /* position: relative; */
 }
 
 
@@ -29,6 +29,7 @@
 @media only screen and (max-width: 600px) {
   .Container {
       margin-top: 4rem;
+      
   }
   }
 

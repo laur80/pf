@@ -1,13 +1,14 @@
 import React from 'react'
-import './Home.css';
+import './Contact.css';
 
 function Contact() {
     return (
-        <div className="bg-info  Home" id='contact'>
+        <div className="bg-info  Contact" id='contact'>
         
         <h1 id="st">
             CONTACT
         </h1>
+        
         </div>
     )
 }
