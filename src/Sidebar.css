@@ -7,21 +7,30 @@
     
 }
 
-.name {
+.name-bar {
     font-family: var(--ff-txt-bar);
+    color: var(--txt-color-name-bar);
+}
+.work {
+    color: var(--txt-color-name-bar);
+    font-family: var(--ff-txt-hand-rw2);
+    font-size: 1.5em;
 }
 
-.underline {
+.underln {
     font-family: var(--ff-txt-bar);
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
     line-height: 30px;
-    color: white;
     text-align: center;
     font-size: 1.4rem;
     margin: 10px;
     position: relative;
+    color: var(--txt-color-btn2);
+}
+.underln:hover {
+    color: var(--txt-color-name-bar);
 }
 
 .Photo {

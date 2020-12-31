@@ -1,23 +1,27 @@
-import React from 'react'
+import React from 'react';
+import About from "./About"
 import './Home.css';
 import { HashLink } from "react-router-hash-link";
 
 
 function Home() {
-   
 
     return (
-        <nav class="nav d-inline-flex st  justify-content-center align-items-center Home" id='home' >
-        <div className='cont' id="st">
-
-            <h1 className="txtH ">Popa Laurentiu</h1>
-            <h2 className='txtDev ps-5 fs-1 text-danger '>Front-end Developer</h2>
-            <HashLink smooth to='#projects' class="btn ms-5 btn-secondary ">Projects</HashLink>
-            <HashLink smooth to='#contact' class="btn ms-5 btn-secondary ">Contact</HashLink>
-            
+        <>
+        <About/>
+        <nav className="nav  Home" id='home' >
+        <div className='container-home'>
+            <h1 className="txtName" >Popa Laurentiu</h1>
+            <h2 className='txtDev  '>Front-end Developer</h2>
+            <div className='btns'>
+                <HashLink smooth to='#projects' className="bt bt1">Projects</HashLink>
+                <button type="button" className="bt bt2" data-bs-toggle="modal" data-bs-target="#exampleModal">About</button>
+                <HashLink smooth to='#contact' className="bt bt3 ">Contact</HashLink>
+            </div>
         </div>
         </nav>
-    )
+        </>
+    );
 }
 
-export default Home
+export default Home;

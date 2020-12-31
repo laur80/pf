@@ -1,12 +1,26 @@
 .NavbarTop {
-    position: relative;
+    position: fixed;
     height: 4rem;
     background: var(--bg-nav); 
 }
-
-.dropdown-menu {
-    background: var(--bg-nav); 
+.menu-right {
+    margin-left: auto;
 }
-.underline {
+
+#dropdownMenu2{
+    background: var(--txt-color-name-bar);
+    border-radius: 25%;
+    color:  #D1AE56;
+}
+#hmenu {
+    background:var(--bg-nav);
+
+}
+.txt-under-menu{
     font-family: var(--ff-txt-bar);
+    color: var(--txt-color-btn2);
+    text-decoration: none;
+}
+.txt-under-menu:hover {
+    color: var(--txt-color-name-bar);
 }

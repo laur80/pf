@@ -1,10 +1,39 @@
 .Project {
-  
-    height: 100vh;
-    background: linear-gradient(
-    100deg,
-    #b0eae8 30%,
-    rgba(250, 214, 195, 0.8)  120%
-  );
+  /* max-height: 100%; */
+  padding: 5rem 0;
+}
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+ 
+}
+.container-cards > * {
+  flex-basis: 100%;
+  /* flex: 1 1 20rem; */
+  margin-left: auto;
+  margin-right: auto;
+}
+#card {
+  max-width: 30rem;
+}
+.card-body {
+  background: blanchedalmond;
+  display: grid;
 
+}
+.btns-card {
+display: flex;
+
+}
+.bt-card {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  background-color: chocolate;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  color: burlywood;
+  border-radius: 15px;
 }

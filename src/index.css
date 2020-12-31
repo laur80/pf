@@ -8,12 +8,18 @@
 }
 
 :root {
-  --bg-nav: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%); 
+  /* --bg-nav: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);  */
+  --bg-nav:#163057;
+  --bg-home:#82A3FF;
   --ff-txt-bar:'Charm', cursive;
   --ff-txt-hand-rw1:'Montez', cursive;
-
   --ff-txt-hand-rw2: 'Niconne', cursive;
   --ff-txt-portfolio:'Ultra', serif;
+  --txt-color-btn: #D1AE56;
+  --txt-color-btn2: #FFD15C;
+  --txt-color-name: #453324;
+  --txt-color-name-bar: #766151;
+  --txt-color-work: #da9100;
 }
 
 body {
@@ -24,10 +30,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
 }
-@media only screen and (max-width: 780px) {
-  #st {
+
+@media only screen and (min-width: 768px) {
+  /* in App.js */
+  .Container {
+    margin-left: 13rem;
+  }
+  /* in Home.js */
+  #exampleModal{
+    left: 6rem;
+  }
+  #home {
+    padding: 43vh 0;
+    }
+ 
+}
+
+@media only screen and (max-width: 767px) {
+  /* in App.js */
+  .Container {
+    margin-top: 4rem;
+  }
+  /* in Home.js */
+  #exampleModal{
+    left: 0;
+    margin-right: 4rem;
+    }
+    .btns .bt {
+      padding: 0.25rem 0.5rem;
+      font-size: 0.8rem;
+    }
     
+    /* #st {
     position: sticky;
     top: 4rem;
-  }
-  }
+    } */
+}

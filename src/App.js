@@ -1,7 +1,7 @@
 import Home from './Home';
-import About from './About';
+
 import Projects from './Projects';
-import Skills from './Skills';
+// import Skills from './Skills';
 import Contact from './Contact';
 import Sidebar from "./Sidebar"
 import NavbarTop from "./NavbarTop";
@@ -14,9 +14,8 @@ function App() {
                 <Sidebar />
               <div className='Container '>
                 <Home/>
-                <About/>
-                <Skills/>
                 <Projects/>
+              
                 <Contact/>
                 </div>
   
