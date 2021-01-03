@@ -1,12 +1,9 @@
 .Home {
-  /* max-width: 1980px; */
   background-color:var(--bg-home);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* height: 67rem;  */
-  /* max-height: 100%; */
   padding: 38vh 0;
 }
 

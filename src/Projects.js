@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import './Project.css';
 
 function Projects() {
-    console.log(projects);
+
     return (
         <div className="Project " id='projects'>
             <div id='st' className='container-cards'>
