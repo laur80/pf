@@ -18,8 +18,8 @@ function Projects() {
                         <h5 class="card-title">{item.name}</h5>
                         <p class="card-text">{item.text} </p>
                         <div className="btns-card">
-                            <a href={item.code} class="bt-card">Code</a>
-                            <a href={item.live} class="bt-card">Live</a>
+                            <a href={item.code} class="bt-card" target="_blank">Code</a>
+                            <a href={item.live} class="bt-card" target="_blank">Live</a>
                         </div>
                         
                     </div>
