@@ -8,17 +8,17 @@
 }
 
 .name-bar {
-    font-family: var(--ff-txt-bar);
-    color: var(--txt-color-name-bar);
+    font-family: var(--ff-txt-card2);
+    color: var(--txt-color-btn2);
 }
 .work {
-    color: var(--txt-color-name-bar);
-    font-family: var(--ff-txt-hand-rw2);
+    color: var(--txt-color-btn2);
+    font-family: var(--ff-text-card);
     font-size: 1.5em;
 }
 
 .underln {
-    font-family: var(--ff-txt-bar);
+    font-family: var(--ff-txt-card2);
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
@@ -36,4 +36,6 @@
 .Photo {
     width: 75%;
     border-radius: 50%;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    
 }

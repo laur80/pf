@@ -1,32 +1,55 @@
 .Home {
-  /* max-width: 1980px; */
   background-color:var(--bg-home);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* height: 67rem;  */
-  /* max-height: 100%; */
-  padding: 38vh 0;
+  padding: 36vh 0;
+  font-family: var(--ff-txt-card2);
 }
 
 .txtName {
   font-size: clamp(2rem,5vw, 5rem);
-  font-family: var(--ff-txt-hand-rw2);
-  color: var(--txt-color-name-bar);
-  text-align: center;
 
+  color: var(--txt-color-name);
+  text-align: center;
+  border: 4px solid transparent;
+  
+  /* box-shadow: 3px 3px 5px 6px #ccc; */
 }
 
 .txtDev {
-  font-family: var(--ff-txt-hand-rw1);
-  
   text-align: center;
-  color: var(--txt-color-btn);
+  color: var(--txt-color-btn2);
   font-size: clamp(1.5rem,3.5vw, 3.5rem);
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+  
+  /* padding-top: 6rem; */
 }
+/* .txtName::after {
+  width: 0%;
+  height: .4rem;
+  display: block;
+  background-color: var(--txt-color-btn2);;
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 20vw;
+  transition: left 0.4s cubic-bezier(0.215, 0.61, 0.355, 1),
+    width 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  
+}
+
+.txtName:hover::after {
+  width: 56%;
+  top: 53%;
+  left: 20vw;
+  
+} */
+
+
 .btns {
+
   display: flex;
 }
 .bt1 {
@@ -46,13 +69,15 @@ margin-left: auto;
   margin-right: 0.7rem;
   display: inline-block;
   padding: 0.5rem 1rem;
-  background:var(--txt-color-name-bar);
+  background:var(--txt-color-name);
   text-decoration: none;
   border-radius: 10px;
-  color:  #D1AE56;
-  font-family: var(--ff-txt-hand-rw2);
+  color: var(--txt-color-btn);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
+  /* border: none; */
+  outline: none;
 }
 .bt:hover {
   background:#918936;
-
+  color:var(--txt-color-name);
 }

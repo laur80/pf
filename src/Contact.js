@@ -1,27 +1,38 @@
 import React from 'react'
 import './Contact.css';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Contact() {
     return (
         <div className="Contact " id='contact'>
 			<div className="container " id="st">
 				<h3 >Contact</h3>
-				<form action="#" name="contact_form">
-					<label for="first_name">First Name</label>
+				<form action="#" name="contact_form" method="POST" data-netlify="true">
+					<label htmlFor="first_name">First Name</label>
 					<input name="first_name" type="text" required placeholder="name"/>
 					<br/>
-					<label for="last_name">Last Name</label>
+					<label htmlFor="last_name">Last Name</label>
 					<input name="last_name" type="text" />
 					<br/>
-					<label for="email">Email</label>
+					<label htmlFor="email">Email</label>
 					<input name="email" type="email" required placeholder="you@domain.com"/>
 					<br/>
-					<label for="message">Message</label><br/>
+					<label htmlFor="message">Message</label><br/>
 					<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
 					<div className="center">
 						<input type="submit" value="Submit"/>
 					</div>
 				</form>	
+
+				<div className="contain-links justify-content-around">
+				<a className=" btn btn-secondary"  href="https://www.linkedin.com/in/laurentiu-popa80/" target="_blank" rel="noreferrer">
+                    <FaLinkedin size="2rem"/>
+                </a>
+                <a className="btn btn-secondary " role="button" href="https://github.com/laur80" target="_blank" rel="noreferrer">
+                <FaGithub color="white" size="2rem"/>
+                </a>
+            	</div>
 			</div>
         
         </div>

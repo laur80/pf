@@ -13,9 +13,33 @@
   font-size: 1.5em;
   
 }
+#contain-links {
+  display: flex;
+  justify-content: space-between;
+}
+#contain-links .bt-link{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background:var(--txt-color-name-bar);
+  border-radius: 10px;
+  color:  #D1AE56;
+  font-family: var(--ff-txt-hand-rw2);
+}
 #btn-foot {
   background:var(--bg-home);
   color: #453324;
   font-family: var(--ff-txt-hand-rw2);
   font-size: 1.5em;
 }
+.contain-links {
+  display: flex;
+
+}
+.contain-links a {
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+  /* padding: 0.3rem .5rem; */
+}
+
