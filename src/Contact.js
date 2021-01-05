@@ -8,22 +8,22 @@ function Contact() {
         <div className="Contact " id='contact'>
 			<div className="container d-block " id="st">
 				<h3 >Contact</h3>
-				<form action="/contact" name="contact" method="POST" data-netlify="true" >
-					<input name="form-name" type="hidden" value="contact"/>
-					<label htmlFor="first_name">First Name</label>
+				<form name="contact" method="POST" data-netlify="true" >
+		
+					{/* <label htmlFor="first_name">First Name</label> */}
 					<input name="first_name" type="text" required placeholder="name"/>
-					<br/>
-					<label htmlFor="last_name">Last Name</label>
+					{/* <br/>
+					<label htmlFor="last_name">Last Name</label> */}
 					<input name="last_name" type="text" />
-					<br/>
-					<label htmlFor="email">Email</label>
+					{/* <br/>
+					<label htmlFor="email">Email</label> */}
 					<input name="email" type="email" required placeholder="you@domain.com"/>
-					<br/>
-					<label htmlFor="message">Message</label><br/>
+					{/* <br/>
+					<label htmlFor="message">Message</label><br/> */}
 					<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
-					<div className="center">
+					{/* <div className="center"> */}
 						<button className="btnc" type="submit">Submit</button>
-					</div>
+					{/* </div> */}
 				</form>	
 
 				<div className="contain-links justify-content-around">
