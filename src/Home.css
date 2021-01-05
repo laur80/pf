@@ -1,4 +1,4 @@
-.Home {
+#home {
   background-color:var(--bg-home);
   display: flex;
   justify-content: center;
