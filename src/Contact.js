@@ -2,19 +2,30 @@ import React from 'react'
 import './Contact.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import emailjs from "emailjs-com";
 
 function Contact() {
+
+	function sendEmail(e) {
+		e.preventDefault();
+	
+		emailjs.sendForm('gmail', 'portfolio', e.target, 'user_XDxlk4DCCTlOv3xwP2ZMk')
+			.then((result) => {
+				console.log(result.text);
+		}, (error) => {
+				console.log(error.text);
+		});
+		e.target.reset()
+	}
+	
+
     return (
         <div className="Contact " id='contact'>
-			<div className="container d-block " id="st">
+			<div className="container" id="st">
 				<h3 >Contact</h3>
-				<form name="contact" method="POST" data-netlify="true" >
-		
-					<label htmlFor="first_name">First Name</label>
-					<input name="first_name" type="text" required placeholder="name"/>
-					<br/>
-					<label htmlFor="last_name">Last Name</label>
-					<input name="last_name" type="text" />
+				<form onSubmit={sendEmail} name="contact" method="POST" data-netlify="true" >
+					<label htmlFor="name">Name</label>
+					<input name="name" type="text" required placeholder="name"/>
 					<br/>
 					<label htmlFor="email">Email</label>
 					<input name="email" type="email" required placeholder="you@domain.com"/>
