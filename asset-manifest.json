@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pf/static/css/main.81387353.chunk.css",
-    "main.js": "/pf/static/js/main.d9d4ff2b.chunk.js",
-    "main.js.map": "/pf/static/js/main.d9d4ff2b.chunk.js.map",
-    "runtime-main.js": "/pf/static/js/runtime-main.1a89789a.js",
-    "runtime-main.js.map": "/pf/static/js/runtime-main.1a89789a.js.map",
+    "main.css": "/pf/static/css/main.8a25e2af.chunk.css",
+    "main.js": "/pf/static/js/main.54f5b271.chunk.js",
+    "main.js.map": "/pf/static/js/main.54f5b271.chunk.js.map",
+    "runtime-main.js": "/pf/static/js/runtime-main.10213cec.js",
+    "runtime-main.js.map": "/pf/static/js/runtime-main.10213cec.js.map",
     "static/css/2.81057f45.chunk.css": "/pf/static/css/2.81057f45.chunk.css",
-    "static/js/2.1de2b7cd.chunk.js": "/pf/static/js/2.1de2b7cd.chunk.js",
-    "static/js/2.1de2b7cd.chunk.js.map": "/pf/static/js/2.1de2b7cd.chunk.js.map",
-    "static/js/3.02cab151.chunk.js": "/pf/static/js/3.02cab151.chunk.js",
-    "static/js/3.02cab151.chunk.js.map": "/pf/static/js/3.02cab151.chunk.js.map",
+    "static/js/2.ca1fbbfe.chunk.js": "/pf/static/js/2.ca1fbbfe.chunk.js",
+    "static/js/2.ca1fbbfe.chunk.js.map": "/pf/static/js/2.ca1fbbfe.chunk.js.map",
+    "static/js/3.33b9df55.chunk.js": "/pf/static/js/3.33b9df55.chunk.js",
+    "static/js/3.33b9df55.chunk.js.map": "/pf/static/js/3.33b9df55.chunk.js.map",
     "index.html": "/pf/index.html",
     "static/css/2.81057f45.chunk.css.map": "/pf/static/css/2.81057f45.chunk.css.map",
-    "static/css/main.81387353.chunk.css.map": "/pf/static/css/main.81387353.chunk.css.map",
-    "static/js/2.1de2b7cd.chunk.js.LICENSE.txt": "/pf/static/js/2.1de2b7cd.chunk.js.LICENSE.txt",
+    "static/css/main.8a25e2af.chunk.css.map": "/pf/static/css/main.8a25e2af.chunk.css.map",
+    "static/js/2.ca1fbbfe.chunk.js.LICENSE.txt": "/pf/static/js/2.ca1fbbfe.chunk.js.LICENSE.txt",
     "static/media/Lgame.78081f09.png": "/pf/static/media/Lgame.78081f09.png",
     "static/media/cars.0c5af3a0.png": "/pf/static/media/cars.0c5af3a0.png",
     "static/media/dogs.db4a0f33.png": "/pf/static/media/dogs.db4a0f33.png",
@@ -23,10 +23,10 @@
     "static/media/todo.329edc67.png": "/pf/static/media/todo.329edc67.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a89789a.js",
+    "static/js/runtime-main.10213cec.js",
     "static/css/2.81057f45.chunk.css",
-    "static/js/2.1de2b7cd.chunk.js",
-    "static/css/main.81387353.chunk.css",
-    "static/js/main.d9d4ff2b.chunk.js"
+    "static/js/2.ca1fbbfe.chunk.js",
+    "static/css/main.8a25e2af.chunk.css",
+    "static/js/main.54f5b271.chunk.js"
   ]
 }
