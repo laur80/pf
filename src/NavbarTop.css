@@ -1,4 +1,5 @@
 .NavbarTop {
+    font-family: var(--ff-txt-card2);
     position: fixed;
     height: 4rem;
     background: var(--bg-nav); 
@@ -8,16 +9,17 @@
 }
 
 #dropdownMenu2{
-    background: var(--txt-color-name-bar);
+    background: var(--txt-color-name);
     border-radius: 25%;
-    color:  #D1AE56;
+    color: var(--txt-color-btn2);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
 }
 #hmenu {
     background:var(--bg-nav);
 
 }
 .txt-under-menu{
-    font-family: var(--ff-txt-bar);
+    font-family: var(--ff-txt-card2);
     color: var(--txt-color-btn2);
     text-decoration: none;
 }

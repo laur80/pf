@@ -1,6 +1,6 @@
-/* .Contact {
-	height: 100vh;
-} */
+.Contact {
+	font-family: var(--ff-text-card);
+}
 
 /* Remove outline of all elements on focus */
 *:focus {
@@ -21,6 +21,7 @@ h3 {
 	padding-top: 5rem;
 	background: #E3F2FD;
 	border-radius: 4px;
+	box-shadow: -5px -5px 10px;
 }
 
 /* Add styles to 'label' selector */
@@ -75,4 +76,11 @@ input[type=submit]:hover {
 /* Align items to center of the 'div' with the class 'center' */
 .center {
 	text-align: center;
+	
+}
+.center input {
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
+}
+.btn {
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
 }
