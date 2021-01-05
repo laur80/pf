@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 function Contact() {
     return (
         <div className="Contact " id='contact'>
-			<div className="container " id="st">
+			<div className="container d-block " id="st">
 				<h3 >Contact</h3>
 				<form action="/contact" name="contact" method="POST" data-netlify="true" >
 					<label htmlFor="first_name">First Name</label>
@@ -20,9 +20,9 @@ function Contact() {
 					<br/>
 					<label htmlFor="message">Message</label><br/>
 					<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
-					<div className="center ">
-						<button className=" " type="submit">Submit</button>
-					</div>
+					
+						<button className="btnc mx-auto " type="submit">Submit</button>
+					
 				</form>	
 
 				<div className="contain-links justify-content-around">

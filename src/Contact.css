@@ -47,8 +47,12 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 	border: 1px solid green;
 }
 
+.center {
+	text-align: center;
+	
+}
 /* Add styles to the submit button */
-input[type=submit] {
+.btnc{
 	background: #64B5F6;
 	margin: 0 auto;
 	outline: 0;
@@ -60,27 +64,18 @@ input[type=submit] {
 	position: relative;
 	display: inline-block;
 	text-align: center;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
 }
 
 /* Add styles for 'focus' property */
-input[type=submit]:focus {
+.btnc:focus {
 	background: #A5D6A7;
 	color: whitesmoke;
 }
 
 /* Style 'hover' property */
-input[type=submit]:hover {
+.btnc:hover {
 	background: #2196F3;
 }
 
 /* Align items to center of the 'div' with the class 'center' */
-.center {
-	text-align: center;
-	
-}
-.center input {
-	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
-}
-.btn {
-	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
-}
