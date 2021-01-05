@@ -8,7 +8,7 @@ function Contact() {
         <div className="Contact " id='contact'>
 			<div className="container " id="st">
 				<h3 >Contact</h3>
-				<form action="#" name="contact_form" method="POST" data-netlify="true">
+				<form action="/contact" name="contact" method="POST" data-netlify="true" >
 					<label htmlFor="first_name">First Name</label>
 					<input name="first_name" type="text" required placeholder="name"/>
 					<br/>
@@ -20,8 +20,8 @@ function Contact() {
 					<br/>
 					<label htmlFor="message">Message</label><br/>
 					<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
-					<div className="center">
-						<input type="submit" value="Submit"/>
+					<div className="center ">
+						<button className=" " type="submit">Submit</button>
 					</div>
 				</form>	
 
