@@ -9,6 +9,7 @@ function Contact() {
 			<div className="container d-block " id="st">
 				<h3 >Contact</h3>
 				<form action="/contact" name="contact" method="POST" data-netlify="true" >
+					<input name="form-name" type="hidden" value="contact"/>
 					<label htmlFor="first_name">First Name</label>
 					<input name="first_name" type="text" required placeholder="name"/>
 					<br/>
@@ -20,9 +21,9 @@ function Contact() {
 					<br/>
 					<label htmlFor="message">Message</label><br/>
 					<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
-					
-						<button className="btnc mx-auto " type="submit">Submit</button>
-					
+					<div className="center">
+						<button className="btnc" type="submit">Submit</button>
+					</div>
 				</form>	
 
 				<div className="contain-links justify-content-around">
