@@ -5,7 +5,7 @@
   align-items: center;
   position: relative;
   padding: 36vh 0;
-  font-family: var(--ff-txt-card2);
+  font-family: var(--ff-txt-card);
 }
 
 .txtName {
