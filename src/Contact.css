@@ -1,11 +1,11 @@
 .Contact {
 	font-family: var(--ff-text-card);
+	background-color: #fff;
 }
 
 /* Remove outline of all elements on focus */
 *:focus {
 	outline: 0;
-	background-color: #fff;
 }
 
 body {
