@@ -2,14 +2,14 @@
   opacity: 0.8;
 }
 .modal-title {
-  color: var(--bg-home);
-  font-family: var(--ff-txt-hand-rw2);
+  color: var(--bg-nav); 
+  font-family: var(--ff-text-card);
   font-size: 2.5em;
 }
 .modal-body {
   background:var(--bg-home);
-  color: #453324;
-  font-family: var(--ff-txt-hand-rw2);
+  color:#000000;
+  font-family: var(--ff-text-card);
   font-size: 1.5em;
   
 }
@@ -24,12 +24,11 @@
   background:var(--txt-color-name-bar);
   border-radius: 10px;
   color:  #D1AE56;
-  font-family: var(--ff-txt-hand-rw2);
 }
 #btn-foot {
   background:var(--bg-home);
-  color: #453324;
-  font-family: var(--ff-txt-hand-rw2);
+  color: #000000;
+
   font-size: 1.5em;
 }
 .contain-links {
