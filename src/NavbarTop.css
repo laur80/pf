@@ -14,6 +14,9 @@
     color: var(--txt-color-btn2);
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
 }
+#dropdownMenu2:hover  {
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
 #hmenu {
     background:var(--bg-nav);
 
@@ -24,5 +27,9 @@
     text-decoration: none;
 }
 .txt-under-menu:hover {
-    color: var(--txt-color-name-bar);
+
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-radius: 7px;
+    color: azure;
+    padding: 0 .7rem;
 }

@@ -17,11 +17,11 @@ function Sidebar() {
             setActiveH(true);
             setActiveP(false);
             setActiveC(false);
-        }else if((window.scrollY > 450) && (window.scrollY < 1700)){
+        }else if((window.scrollY > 450) && (window.scrollY < 1500)){
             setActiveH(false);
             setActiveP(true);
             setActiveC(false);
-        }else if(window.scrollY > 1700 ) {
+        }else if(window.scrollY > 1500 ) {
             setActiveH(false);
             setActiveP(false);
             setActiveC(true);

@@ -80,4 +80,5 @@ margin-left: auto;
 .bt:hover {
   background:#918936;
   color:var(--txt-color-name);
+  box-shadow: 3px 3px 5px 6px #ccc;
 }
