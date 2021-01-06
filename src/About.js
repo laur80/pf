@@ -22,22 +22,15 @@ function About() {
             </div>
 
             <div className="modal-body" >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
-                Natus porro eius nisi, sint culpa, quisquam sapiente,<br/>
-                placeat asperiores similique id dolores tempore assumenda<br/>
-                expedita cum nostrum cupiditate odio dignissimos repellendus.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
-                Natus porro eius nisi, sint culpa, quisquam sapiente,<br/>
-                placeat asperiores similique id dolores tempore assumenda<br/>
-                expedita cum nostrum cupiditate odio dignissimos repellendus.
+            Hello, my name is Popa Laurentiu, a perfectionist in building and repairing things.<br/>
+            With great attention to details and oriented in solving client's problems.<br/>
+            I come from a customer service background with many years of experience,
+            dedicate to client/Company and I am available to work!
                 <div id="contain-links" >
                 </div>
             </div>
 
             <div className="modal-footer" >
-            
-                
-            
                 <button type="button" className="btn " id="btn-foot" data-bs-dismiss="modal">Close</button>
             </div>
             </div>
