@@ -1,11 +1,15 @@
 #home {
-  background-color:var(--bg-home);
+ 
+  background-image: linear-gradient(to bottom, #163057, #545d7e, #8d8fa7, #c6c5d2, #ffffff);
+  
+  
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 39vh 0;
+  padding: 30vh 0;
   font-family: var(--ff-txt-card);
+  border: 0;
 }
 
 .txtName {

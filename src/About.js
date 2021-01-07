@@ -22,8 +22,9 @@ function About() {
             </div>
 
             <div className="modal-body" >
-            Hello, my name is Popa Laurentiu, passionate about technology to use in building and repairing things.<br/>
-            With great attention to details and oriented in solving client's problems.<br/>
+            Hello, my name is Laurentiu Popa, passionate about building and repairing things,
+            and focused on solving customer problems.
+            <br/>
             I come from a customer service background with many years of experience,
             dedicate to client/Company and I am available to work!
                 <div id="contain-links" >

@@ -33,7 +33,7 @@ function Sidebar() {
     
             <nav className="nav d-none d-md-flex flex-column  justify-content-center align-items-center position-fixed Fix ">
                 <img className='Photo mb-3' src={eu} alt='pers'/>
-                <h5 className='name-bar'>Popa Laurentiu</h5>
+                <h5 className='name-bar'>Laurentiu Popa</h5>
                 <h6 >
                 <small className='work'>Available for work</small>
                 </h6>

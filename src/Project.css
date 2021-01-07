@@ -1,6 +1,12 @@
 .Project {
-  background-color: #fff;
+  /* background-image: linear-gradient(to bottom, #d4d3dd, #dfdee5, #e9e9ee, #f4f4f6, #ffffff); */
+  /* background-image: linear-gradient(to bottom, #f4f4f6, #f7f7f8, #faf9fa, #fcfcfd, #ffffff); */
   padding: 5rem 0;
+  /* background-image: linear-gradient(to bottom, #f9f9fa, #fbfafb, #fcfcfc, #fefdfe, #ffffff); */
+  /* background-image: linear-gradient(to bottom, #fbfafb, #fcfbfc, #fdfdfd, #fefefe, #ffffff); */
+  /* background-image: linear-gradient(to bottom, #fcfbfc, #fdfcfd, #fdfdfe, #fefefe, #ffffff); */
+  /* background-image: linear-gradient(to bottom, #fdfcfd, #fdfdfe, #fefefe, #fefeff, #ffffff); */
+  background-image: linear-gradient(to bottom, #fefefe, #fefefe, #ffffff, #ffffff, #ffffff);
 }
 .container-cards {
  

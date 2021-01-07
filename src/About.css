@@ -7,7 +7,7 @@
   font-size: 2.5em;
 }
 .modal-body {
-  background:var(--bg-home);
+  background:#c6c5d2;
   color:#000000;
   font-family: var(--ff-text-card);
   font-size: 1.5em;
@@ -21,14 +21,14 @@
   display: inline-block;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  background:var(--txt-color-name-bar);
-  border-radius: 10px;
+  background: var(--bg-nav);
+ 
   color:  #D1AE56;
 }
 #btn-foot {
-  background:var(--bg-home);
-  color: #000000;
-
+  background: var(--bg-nav);
+  color: #c6c5d2;
+  border-radius: 15px;
   font-size: 1.5em;
 }
 .contain-links {

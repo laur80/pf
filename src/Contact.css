@@ -15,14 +15,15 @@ h3 {
 
 /* Add styles to 'container' class */
 .container#st {
-	height: 95%;
+	/* height: 100%; */
 	width: 90%;
 	max-width: 70rem;
-	background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%); 
+	background-image: linear-gradient(to bottom, #fefefe, #c5c4d1, #8d8fa6, #545d7e, #163057);
 	border-radius: 4px;
 	box-shadow: -5px -5px 10px;
 	padding-bottom: 3rem;
-	margin: 1rem auto ;
+	margin: 10% auto ;
+	/* margin-bottom: 20%; */
 }
 
 form {
@@ -44,7 +45,7 @@ input[type=text],input[type=email], textarea {
     padding: 0.1rem;
     outline: 1px solid #ccc;
     border-radius: 4px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 	/* margin: 1rem 0; */
 	/* resize: vertical; */
 }
@@ -62,7 +63,7 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 .btnc{
 	
 	background: #64B5F6;
-	margin: 1rem auto 0;
+	margin: 1 auto;
 	outline: 0;
 	color: white;
 	border: 0;
@@ -85,5 +86,8 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 .btnc:hover {
 	background: #2196F3;
 }
-
+.contain-links {
+	
+	/* border: 2px solid red; */
+}
 

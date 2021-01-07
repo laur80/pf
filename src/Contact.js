@@ -38,12 +38,12 @@ function Contact() {
 				</form>	
 
 				<div className="contain-links justify-content-around">
-				<a className=" btn btn-secondary"  href="https://www.linkedin.com/in/laurentiu-popa80/" target="_blank" rel="noreferrer">
-                    <FaLinkedin size="2rem"/>
-                </a>
-                <a className="btn btn-secondary " role="button" href="https://github.com/laur80" target="_blank" rel="noreferrer">
-                <FaGithub color="white" size="2rem"/>
-                </a>
+					<a className=" btn btn-secondary"  href="https://www.linkedin.com/in/laurentiu-popa80/" target="_blank" rel="noreferrer">
+						<FaLinkedin size="2rem"/>
+					</a>
+					<a className="btn btn-secondary " role="button" href="https://github.com/laur80" target="_blank" rel="noreferrer">
+						<FaGithub color="white" size="2rem"/>
+					</a>
             	</div>
 			</div>
         
