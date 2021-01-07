@@ -51,7 +51,7 @@ input[type=text],input[type=email], textarea {
 
 /* Add styles to show 'focus' of selector */
 input[type=text]:focus,input[type=email]:focus, textarea:focus {
-	outline: 3px solid #64B5F6;
+	outline: 3px solid turquoise;
 }
 
 .center {
