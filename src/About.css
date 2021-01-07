@@ -31,6 +31,9 @@
   border-radius: 15px;
   font-size: 1.5em;
 }
+#btn-foot:hover {
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
 .contain-links {
   display: flex;
 
@@ -41,4 +44,12 @@
   text-decoration: none;
   /* padding: 0.3rem .5rem; */
 }
-
+.contain-links .link-btn {
+  color: var(--bg-nav);
+  outline: 2px solid var(--bg-nav);
+}
+.contain-links .link-btn:hover {
+  box-shadow: linear-gradient(to bottom, #fefefe, #c5c4d1, #8d8fa6, #545d7e, #163057);
+	color: #fff;
+	background-color: turquoise;
+}

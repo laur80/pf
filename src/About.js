@@ -12,10 +12,10 @@ function About() {
             <div className="modal-header contain-links " >
                 <h5 className="modal-title" id="exampleModalLabel">About me</h5>
                 <a className="btn mx-auto"  href="https://www.linkedin.com/in/laurentiu-popa80/" target="_blank" rel="noreferrer">
-                    <FaLinkedin color="grey" size="2.4rem"/>
+                    <FaLinkedin className="link-btn" size="2rem"/>
                 </a>
-                <a className="btn btn-secondary " role="button" href="https://github.com/laur80" target="_blank" rel="noreferrer">
-                <FaGithub color="white" size="1.4rem"/>
+                <a className="" role="button" href="https://github.com/laur80" target="_blank" rel="noreferrer">
+                <FaGithub className="link-btn" size="2rem"/>
                 </a>
 
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -23,10 +23,10 @@ function About() {
 
             <div className="modal-body" >
             Hello, my name is Laurentiu Popa, passionate about building and repairing things,
-            and focused on solving customer problems.
+            and focused on solving problems.
             <br/>
             I come from a customer service background with many years of experience,
-            dedicate to client/Company and I am available to work!
+            dedicate to client/company and I am available to work!
                 <div id="contain-links" >
                 </div>
             </div>

@@ -10,7 +10,7 @@
 
 h3 {
 	text-align: center;
-	color:  #64B5F6;
+	color: linear-gradient(to bottom, #fefefe, #c5c4d1, #8d8fa6, #545d7e, #163057);
 }
 
 /* Add styles to 'container' class */
@@ -31,22 +31,21 @@ form {
 	margin: 0;
 	
 }
-/* Add styles to 'label' selector */
+
 label {
 	font-size: 0.85em;
 	margin-left: 1em;
-	color:  #64B5F6;
+	color: linear-gradient(to bottom, #fefefe, #c5c4d1, #8d8fa6, #545d7e, #163057);
 	
 }
 
-/* Add styles to 'input' and 'textarea' selectors */
+
 input[type=text],input[type=email], textarea {
     width: 100%;
     padding: 0.1rem;
     outline: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-	/* margin: 1rem 0; */
 	/* resize: vertical; */
 }
 
@@ -59,13 +58,13 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 	text-align: center;
 	
 }
-/* Add styles to the submit button */
+
 .btnc{
 	
 	background: #64B5F6;
 	margin: 1 auto;
 	outline: 0;
-	color: white;
+	color: linear-gradient(to bottom, #fefefe, #c5c4d1, #8d8fa6, #545d7e, #163057);
 	border: 0;
 	padding: .5rem 1.1rem;
 	border-radius: 4px;
@@ -76,18 +75,24 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
 }
 
-/* Add styles for 'focus' property */
 .btnc:focus {
 	background: #A5D6A7;
 	color: whitesmoke;
 }
 
-/* Style 'hover' property */
 .btnc:hover {
 	background: #2196F3;
+	box-shadow: 3px 3px 5px 6px #ccc;
+	color: turquoise;
 }
-.contain-links {
-	
-	/* border: 2px solid red; */
+.contain-links .btn-link{
+color: #fefefe;
+outline: 2px solid #fefefe;
+}
+.contain-links .btn-link:hover {
+	box-shadow: 3px 3px 5px 6px #ccc;
+	color: #fff;
+	background-color: turquoise;
+
 }
 

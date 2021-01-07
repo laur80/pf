@@ -69,7 +69,7 @@ margin-left: auto;
 
 }
 
-.bt{
+#home .bt{
   margin-right: 0.7rem;
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -78,11 +78,11 @@ margin-left: auto;
   border-radius: 10px;
   color: var(--txt-color-btn);
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1); 
-  /* border: none; */
+  border: none;
   outline: none;
 }
-.bt:hover {
+#home .bt:hover {
   background:#918936;
   color:var(--txt-color-name);
   box-shadow: 3px 3px 5px 6px #ccc;
-}
+} 
