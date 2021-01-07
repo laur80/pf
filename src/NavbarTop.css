@@ -16,6 +16,7 @@
 }
 #dropdownMenu2:hover  {
     box-shadow: 3px 3px 5px 6px #ccc;
+    background:#918936;
 }
 #hmenu {
     background:var(--bg-nav);

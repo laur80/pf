@@ -8,44 +8,50 @@
 	outline: 0;
 }
 
-body {
-	background: #263238;  /* Set background color to #263238*/
-}
-
 h3 {
 	text-align: center;
+	color:  #64B5F6;
 }
 
 /* Add styles to 'container' class */
-.container {
-	padding: 12px 24px 24px 24px;
-	padding-top: 5rem;
-	background: #E3F2FD;
+.container#st {
+	height: 95%;
+	width: 90%;
+	max-width: 70rem;
+	background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%); 
 	border-radius: 4px;
 	box-shadow: -5px -5px 10px;
+	padding-bottom: 3rem;
+	margin: 1rem auto ;
 }
 
+form {
+	height: 85%;
+	margin: 0;
+	
+}
 /* Add styles to 'label' selector */
 label {
 	font-size: 0.85em;
-	margin-left: 12px;
+	margin-left: 1em;
+	color:  #64B5F6;
+	
 }
 
 /* Add styles to 'input' and 'textarea' selectors */
 input[type=text],input[type=email], textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
+    padding: 0.1rem;
+    outline: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    /* box-sizing: border-box; */
+	/* margin: 1rem 0; */
+	/* resize: vertical; */
 }
 
 /* Add styles to show 'focus' of selector */
 input[type=text]:focus,input[type=email]:focus, textarea:focus {
-	border: 1px solid green;
+	outline: 3px solid #64B5F6;
 }
 
 .center {
@@ -54,12 +60,13 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 }
 /* Add styles to the submit button */
 .btnc{
+	
 	background: #64B5F6;
-	margin: 0 auto;
+	margin: 1rem auto 0;
 	outline: 0;
 	color: white;
 	border: 0;
-	padding: 12px 24px;
+	padding: .5rem 1.1rem;
 	border-radius: 4px;
 	transition: all ease-in-out 0.1s;
 	position: relative;
@@ -79,4 +86,4 @@ input[type=text]:focus,input[type=email]:focus, textarea:focus {
 	background: #2196F3;
 }
 
-/* Align items to center of the 'div' with the class 'center' */
+

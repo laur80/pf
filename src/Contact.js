@@ -20,7 +20,7 @@ function Contact() {
 	
 
     return (
-        <div className="Contact " id='contact'>
+        <div className="Contact d-grid " id='contact'>
 			<div className="container" id="st">
 				<h3 >Contact</h3>
 				<form onSubmit={sendEmail} name="contact" method="POST" data-netlify="true" >
@@ -31,7 +31,7 @@ function Contact() {
 					<input name="email" type="email" required placeholder="you@domain.com"/>
 					<br/>
 					<label htmlFor="message">Message</label><br/>
-					<textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+					<textarea name="message" cols="30" rows="7" placeholder="Enter your message here ..." required> </textarea>
 					<div className="center">
 						<button className="btnc" type="submit">Submit</button>
 					</div>
