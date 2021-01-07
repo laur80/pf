@@ -12,7 +12,7 @@ function Sidebar() {
     const [activeC, setActiveC] =useState(false);
 
     function activeLink () {
-        console.log(window.scrollY );
+        // console.log(window.scrollY );
         if(window.scrollY < 350) {
             setActiveH(true);
             setActiveP(false);

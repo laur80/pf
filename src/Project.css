@@ -48,3 +48,38 @@ display: flex;
   background-color: var(--txt-color-name);
   color:rgb(26, 218, 218);
 }
+
+h4 {
+  text-align: center;
+}
+.skills div {
+  margin: 0 auto;
+  background-color: #402e32;
+  color: whitesmoke;
+  padding: .3rem .5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+/* 
+.tools {
+  height: 16rem;
+  background-image: linear-gradient(to bottom, #ffffff, #eae9ee, #d4d4dc, #bfbecc, #a9aabb, #a9aabb, #a9aabb, #a9aabb, #bfbecc, #d4d4dc, #eae9ee, #ffffff);
+  padding: 6rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  outline:2px solid red;
+  
+}
+
+#projects .tools > * {
+  width: 2rem;
+  box-shadow: 3px 3px 5px 6px #ccc;
+	color: #fff;
+	background-color: #7aa4ff;
+  outline: 2px solid #fefefe;
+  border: 2px solid red;
+  
+} */
