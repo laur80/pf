@@ -13,7 +13,7 @@ function Home() {
         <nav className="nav  Home" id='home' >
         <div className='container-home'>
             <h1 className="txtName" >Laurentiu Popa</h1>
-            <h2 className='txtDev  '>Front-end Developer</h2>
+            <h2 className='txtDev'>Web Developer</h2>
             <div className='btns'>
                 <HashLink smooth to='#projects' className="bt bt1">Projects</HashLink>
                 <button type="button" className="bt bt2" data-bs-toggle="modal" data-bs-target="#exampleModal">About</button>
