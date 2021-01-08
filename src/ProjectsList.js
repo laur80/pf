@@ -25,7 +25,7 @@ export const projects = [
     {
         name: "CarsGame",
         src: cars,
-        text:"A game using JavaScript and dom manipulation.The user will use the arrows to navigate the traffic.Progress will be recorded and displayed in the event of a collision.",
+        text:"A game using JavaScript and DOM manipulation.The user will use the arrows to navigate the traffic.Progress will be recorded and displayed in the event of a collision.",
         icons:["HTML5","CSS3","JS","DOM"],
         code: "https://github.com/laur80/Car-Driving-Game",
         live: "https://laur80.github.io/Car-Driving-Game/"
