@@ -16,7 +16,7 @@ function Contact() {
 		}, (error) => {
 				console.log(error.text);
 		});
-		alert("Thank you for contacting me! I will come back with an answer as soon as I read your message!")
+		alert("Thank you! Your form submission has been received.")
 		e.target.reset()
 	}
 	
