@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import './About.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+
 
 function About() {
     return (
@@ -32,7 +33,9 @@ function About() {
             </div>
 
             <div className="modal-footer" >
-                <button type="button" className="btn " id="btn-foot" data-bs-dismiss="modal">Close</button>
+                <button type="button" className="btn " id="btn-foot" data-bs-dismiss="modal">
+                Close
+                </button>
             </div>
             </div>
         </div>

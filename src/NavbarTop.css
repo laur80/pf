@@ -34,3 +34,16 @@
     color: azure;
     padding: 0 .7rem;
 }
+.navbar-brand {
+    width: 3rem;
+    text-align: center;
+    margin-left: 4rem;
+    color: var(--txt-color-btn2) !important; 
+    border-radius: 5px;
+}
+.navbar-brand:hover  {
+    
+    box-shadow: 3px 3px 5px 6px #ccc;
+    
+    
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import './Contact.css';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -15,13 +16,15 @@ function Contact() {
 		}, (error) => {
 				console.log(error.text);
 		});
+		alert("Thank you for contacting me! I will come back with an answer as soon as I read your message!")
 		e.target.reset()
 	}
 	
 
     return (
         <div className="Contact d-grid " id='contact'>
-			<div className="container" id="st">
+			<div className="container d-grid" id="st">
+			<HashLink className="to-top" smooth to='#home' >Back to top</HashLink>
 				<h3 >Contact</h3>
 				<form onSubmit={sendEmail} name="contact" method="POST" data-netlify="true" >
 					<label htmlFor="name">Name</label>
