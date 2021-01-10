@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Montez&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@800&display=swap');
 * {
   box-sizing: border-box;
+  /* outline: 2px solid red; */
 }
 
 :root {
@@ -16,9 +19,11 @@
   /* --ff-txt-hand-rw1:'Montez', cursive;
   --ff-txt-hand-rw2: 'Niconne', cursive; */
   --ff-txt-portfolio:'Ultra', serif;
-  --ff-text-card:'Roboto Condensed', sans-serif;
+  --ff-text-card:'Roboto Slab', serif;
   --ff-text-card2: 'Montserrat', sans-serif;
-
+  --ff-text-name: 'Cinzel', serif;
+  --ff-text-name2: 'Eczar', serif;
+  
   --txt-color-btn: #D1AE56;
   --txt-color-btn2: #FFD15C;
   --txt-color-name: #453324;
@@ -30,24 +35,13 @@
 body {
   margin: 0;
   padding: 0;
-  
 }
 
-@media only screen and (min-width: 768px) {
-  /* in App.js */
-  .Container {
-    margin-left: 13rem;
-  }
-  /* in Home.js */
-  #exampleModal{
-    left: 6rem;
-  }
-  #home {
-    padding: 38vh 0;
-    }
- 
-}
+img {
+  max-width: 100%;
+  height: auto;
 
+}
 @media only screen and (max-width: 767px) {
   /* in App.js */
   .Container {
@@ -68,6 +62,24 @@ body {
      margin-right: 1rem;
     }
 }
-#st {
-   --bg-nav: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%) !important;
+
+
+@media only screen and (min-width: 768px) {
+  /* in App.js */
+  .Container {
+    margin-left: 13rem;
+  }
+  /* in Home.js */
+  #exampleModal{
+    left: 6rem;
+  }
+  #home {
+    padding: 38vh 0;
+    }
+ 
 }
+
+
+/* #st {
+   --bg-nav: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%) !important;
+} */

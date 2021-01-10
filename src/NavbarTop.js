@@ -5,7 +5,7 @@ import './NavbarTop.css';
 function NavbarTop() {
     return (
     <nav className=" NavbarTop navbar navbar-dark d-md-none fixed-top">
-    <a class="navbar-brand " href="#">
+    <a className="navbar-brand " href="#">
     Lp
     </a>
    

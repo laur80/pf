@@ -2,15 +2,15 @@ import React from 'react';
 import {projects} from "./ProjectsList";
 import { v4 as uuidv4 } from 'uuid';
 import './Project.css';
-import {FaHtml5} from "react-icons/fa"
-import {SiCss3} from "react-icons/si"
-import {SiJavascript} from "react-icons/si"
-import {FaBootstrap} from "react-icons/fa"
-import {SiMaterialUi} from "react-icons/si"
-import {FaReact} from "react-icons/fa"
-import {DiResponsive} from "react-icons/di"
-import {AiOutlineApi} from "react-icons/ai"
-import {GiMatterStates} from "react-icons/gi"
+// import {FaHtml5} from "react-icons/fa"
+// import {SiCss3} from "react-icons/si"
+// import {SiJavascript} from "react-icons/si"
+// import {FaBootstrap} from "react-icons/fa"
+// import {SiMaterialUi} from "react-icons/si"
+// import {FaReact} from "react-icons/fa"
+// import {DiResponsive} from "react-icons/di"
+// import {AiOutlineApi} from "react-icons/ai"
+// import {GiMatterStates} from "react-icons/gi"
 
 function Projects() {
     
@@ -21,9 +21,9 @@ function Projects() {
                 {projects.map(item=>{
                 return (
                     <div className="card" id="card" key={uuidv4()}>
-                    <img src={item.src} className="card-img-top " id="img-proj" alt="..."/>
+                    <img loading="lazy" src={item.src} className="card-img-top " id="img-proj" alt="..."/>
                     <div className="card-body">
-                        <h4 className="card-title">{item.name}</h4>
+                        <h4 className="card-title"><bold>{item.name}</bold></h4>
                         <div className="skills d-flex">
                             <div>{item.icons[0]}</div>
                             <div>{item.icons[1]}</div>

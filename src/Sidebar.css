@@ -8,8 +8,9 @@
 }
 
 .name-bar {
-    font-family: var(--ff-txt-card2);
+    font-family: var(--ff-text-card);
     color: var(--txt-color-btn2);
+    /* letter-spacing: .1rem;  */
 }
 .work {
     color: var(--txt-color-btn2);

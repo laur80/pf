@@ -12,7 +12,7 @@ function Home() {
         <About/>
         <nav className="nav  Home" id='home' >
         <div className='container-home'>
-            <h1 className="txtName" >Laurentiu Popa</h1>
+            <h1 className="txtName" ><bold>Laurentiu Popa</bold></h1>
             <h2 className='txtDev'>Web Developer</h2>
             <div className='btns'>
                 <HashLink smooth to='#projects' className="bt bt1">Projects</HashLink>

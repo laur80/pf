@@ -98,7 +98,7 @@ outline: 2px solid #fefefe;
 .to-top{
 	color:#2196F3;;
 	padding-top:1.8em;
-	display:inline-block;/* or block */
+	display:inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1rem;

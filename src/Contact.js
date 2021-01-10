@@ -25,7 +25,7 @@ function Contact() {
         <div className="Contact d-grid " id='contact'>
 			<div className="container d-grid" id="st">
 			<HashLink className="to-top" smooth to='#home' >Back to top</HashLink>
-				<h3 >Contact</h3>
+				<h3 ><bold>Contact</bold></h3>
 				<form onSubmit={sendEmail} name="contact" method="POST" data-netlify="true" >
 					<label htmlFor="name">Name</label>
 					<input name="name" type="text" required placeholder="name"/>
