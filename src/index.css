@@ -61,6 +61,13 @@ img {
      margin-left: 1rem;
      margin-right: 1rem;
     }
+
+    .skills div {
+      font-size: .6rem;
+      /* padding: .1rem .2rem; */
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
 }
 
 

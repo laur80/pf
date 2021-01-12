@@ -6,6 +6,7 @@
   align-items: center;
   position: relative;
   padding: 30vh 0;
+  min-height: 100vh;
 }
 
 .txtName {
