@@ -4,8 +4,26 @@ import cars from "./cars.png";
 import hang from "./hangman.png";
 import lightGame from "./Lgame.png";
 import todos from "./todo.png";
+import receipes from "./rceipes.png";
+import blog from "./blog.png";
 
 export const projects = [
+   {
+      name: "Blog",
+      src: blog,
+      text:"A simple blog made in Express-NodeJS, EJS-templating engine and using MongoDB as storage.The application is hosted on Heroku(the page may take a while to load).",
+      icons:["EJS","CSS3","Express-NodeJS","MongoDB"],
+      code: "https://github.com/laur80/LPblog",
+      live: "https://blog-laur.herokuapp.com/blogs" 
+  },
+   {
+      name: "RecipesSearch",
+      src: receipes,
+      text:"An application in Next-the React framework, for searching recipes built around edamam.com/food-database-api. Searches are limited to 10 per minute, so the request is made only when the button was pressed",
+      icons:["TypeScript","Bootstrap5","NextTS","Axios"],
+      code: "https://github.com/laur80/Recipes-search",
+      live: "https://recipes-search-steel.vercel.app/" 
+  },
     {
         name: "DadJokesApp",
         src: jokes,
@@ -13,22 +31,6 @@ export const projects = [
         icons:["HTML5","CSS3","React","Api"],
         code: "https://github.com/laur80/dad-jokes/tree/f538eaeab1d30a989950d4b81cef2a743d2746a3",
         live: "https://laur80.github.io/dad-jokes/" 
-    },
-    {
-        name: "DogList",
-        src: dogs,
-        text:"A simple application using React-router.Each dog have its own unique route.Every other endpoint not listed should redirect you to /dogs.",
-        icons:["HTML5","CSS3","Bootstrap","React"],
-        code: "https://github.com/laur80/router-dogs",
-        live: "https://dog-web.netlify.app/dogs" 
-    },
-    {
-        name: "CarsGame",
-        src: cars,
-        text:"A game using JavaScript and DOM manipulation.The user will use the arrows to navigate the traffic.Progress will be recorded and displayed in the event of a collision.",
-        icons:["HTML5","CSS3","JS","DOM"],
-        code: "https://github.com/laur80/Car-Driving-Game",
-        live: "https://laur80.github.io/Car-Driving-Game/"
     },
     {
         name: "HangmanGame",
@@ -47,11 +49,11 @@ export const projects = [
         live: "https://laur80.github.io/lights-out-game/"
     },
     {
-        name: "TodoList",
-        src: todos,
-        text:" A Todo App that allows users to see, add, edit, and remove todos.Using React-hooks,useState, and local storage to give functionality.",
-        icons:["HTML5","MaterialUI","React","State"],
-        code: "https://github.com/laur80/todo-list/commits/master",
-        live: "https://laur80.github.io/todo-list/" 
-    },
+      name: "CarsGame",
+      src: cars,
+      text:"A game using JavaScript and DOM manipulation.The user will use the arrows to navigate the traffic.Progress will be recorded and displayed in the event of a collision.",
+      icons:["HTML5","CSS3","JS","DOM"],
+      code: "https://github.com/laur80/Car-Driving-Game",
+      live: "https://laur80.github.io/Car-Driving-Game/"
+  },
 ]
