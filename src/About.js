@@ -29,7 +29,7 @@ function About() {
                             I come from a customer service background with many years of experience,
                             dedicate to client/company and I am available to work!
                             <div id="contain-links" >
-                                <a className="mx-auto" href="https://github.com/laur80/resume/blob/main/Laurentiu%20Popa.pdf" target="_blank" rel="noreferrer"> My resume -redirect to Github</a>
+                                <a className="mx-auto" href="https://github.com/laur80/resume/blob/main/CV-LaurentiuPopa.pdf" target="_blank" rel="noreferrer"> My resume -redirect to Github</a>
                             </div>
                         </div>
 
