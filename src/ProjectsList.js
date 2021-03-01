@@ -1,6 +1,6 @@
 import jokes from "./jokes.png";
 import stw from "./stw.png";
-import cars from "./cars.png";
+import shop from "./shop.png";
 import books from "./books.png";
 import receipes from "./rceipes.png";
 import blog from "./blog.png";
@@ -47,11 +47,11 @@ export const projects = [
         live: "https://laur80.github.io/dad-jokes/" 
     },
     {
-      name: "CarsGame",
-      src: cars,
-      text:"A game using JavaScript and DOM manipulation.The user will use the arrows to navigate the traffic.Progress will be recorded and displayed in the event of a collision.",
-      icons:["HTML5","CSS3","JS","DOM"],
-      code: "https://github.com/laur80/Car-Driving-Game",
-      live: "https://laur80.github.io/Car-Driving-Game/"
+      name: "SmallStore",
+      src: shop,
+      text:"A small store that promotes mixed products, displaying the store's position on google-map.",
+      icons:["HTML5","Bootstrap","CSS","NextJS"],
+      code: "https://github.com/laur80/mixtMagazin",
+      live: "https://presto-mixt.vercel.app/"
   },
 ]
