@@ -1,18 +1,24 @@
 import jokes from "./jokes.png";
-import dogs from "./dogs.png";
+import stw from "./stw.png";
 import cars from "./cars.png";
-import hang from "./hangman.png";
-import lightGame from "./Lgame.png";
-import todos from "./todo.png";
+import books from "./books.png";
 import receipes from "./rceipes.png";
 import blog from "./blog.png";
 
 export const projects = [
    {
+      name: "Bookstore",
+      src: books,
+      text:"A CRUD app in which you can see the books stored in MongoDB and can edit or delete. Other technologies used are Chakra UI, React Query and NextJS.",
+      icons:["HTML5","ChakraUI","NextJS","MongoDB"],
+      code: "https://github.com/laur80/bookstore",
+      live: "https://bookstore-five.vercel.app/"
+  },
+   {
       name: "Blog",
       src: blog,
-      text:"A simple blog made in Express-NodeJS, EJS-templating engine and using MongoDB as storage.The application is hosted on Heroku(the page may take a while to load).",
-      icons:["EJS","CSS3","Express-NodeJS","MongoDB"],
+      text:"A simple blog made in NodeJS-Express, EJS-templating engine and using MongoDB as storage.The application is hosted on Heroku(the page may take a while to load).",
+      icons:["EJS","CSS3","NodeJS-Express","MongoDB"],
       code: "https://github.com/laur80/LPblog",
       live: "https://blog-laur.herokuapp.com/blogs" 
   },
@@ -24,6 +30,14 @@ export const projects = [
       code: "https://github.com/laur80/Recipes-search",
       live: "https://recipes-search-steel.vercel.app/" 
   },
+  {
+   name: "Star-Wars",
+   src: stw,
+   text:"Using data from the Star Wars API, it is displayed on multiple pages and cached using React Query.",
+   icons:["TypeScript","CSS3","NextTS","ReactQuery"],
+   code: "https://github.com/laur80/Star-Wars",
+   live: "https://star-wars-laur80.vercel.app/"
+},
     {
         name: "DadJokesApp",
         src: jokes,
@@ -31,22 +45,6 @@ export const projects = [
         icons:["HTML5","CSS3","React","Api"],
         code: "https://github.com/laur80/dad-jokes/tree/f538eaeab1d30a989950d4b81cef2a743d2746a3",
         live: "https://laur80.github.io/dad-jokes/" 
-    },
-    {
-        name: "HangmanGame",
-        src: hang,
-        text:"The AlphaButtons component renders a sequence of buttons corresponding to letters.The Hangman component keeps track of which letters have been guessed.",
-        icons:["HTML5","CSS3","React","State"],
-        code: "https://github.com/laur80/hangman/tree/deploy",
-        live: "https://laur80.github.io/hangman/"
-    },
-    {
-        name: "LightsOutGame",
-        src: lightGame,
-        text:"Lights Out is a logic/puzzle game, played on a gird of individual lights, which can either be lit or unlit.The puzzle is won when when all of the lights are turned off.",
-        icons:["HTML5","CSS3","React","State"],
-        code: "https://github.com/laur80/lights-out-game/tree/6c563196f9202ff0b0004834af2ad373a80eaefa",
-        live: "https://laur80.github.io/lights-out-game/"
     },
     {
       name: "CarsGame",
